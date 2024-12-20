@@ -66,8 +66,7 @@ app.post('/users/', async (request, response) => {
     response.send('User already exists')
   }
 })
-<<<<<<< HEAD
-=======
+
 
 app.post('/login', async (request, response) => {
   const {username, password} = request.body
@@ -86,4 +85,4 @@ app.post('/login', async (request, response) => {
     }
   }
 })
->>>>>>> Your commit message
+
