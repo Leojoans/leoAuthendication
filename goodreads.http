@@ -5,7 +5,11 @@ Content-Type: application/json
 
 {   
     "name":"rahul",
+<<<<<<< HEAD
     "username":"rahul123",
+=======
+    "username":"rahul124",
+>>>>>>> Your commit message
     "password": "rahul@456",
     "gender": "Male",
     "location":"hyderabad"
@@ -18,6 +22,10 @@ POST http://localhost:3000/login/
 Content-Type: application/json
 
 {
+<<<<<<< HEAD
     "username":"rahul123",
+=======
+    "username":"rahul124",
+>>>>>>> Your commit message
     "password": "rahul@456"
 }
